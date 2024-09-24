@@ -50,3 +50,11 @@
     font-weight: bold;
     font-size: 70px;
 }
+
+.now__time{
+    color: white;
+}
+
+.your__time{
+    font-size: x-small;
+}

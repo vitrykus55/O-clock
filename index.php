@@ -15,6 +15,10 @@
 
 <div class="container">
     <span class="welcome__page">Welcome to the site.</span>
+    <div class="now__time">
+        <span class="your__time"> Your time is:</span>
+        <div class="clock__now" id="clock"></div>
+    </div>
     <div class="block__buttons">
         <form method="post">
             <button type="submit" name="city" value="Tokyo" class="btn"
@@ -72,12 +76,10 @@ if (isset($_POST['city'])) {
         echo "<p class='time__zone'>cant find this city: $city.</p>";
     }
 
-
 }
 
-
 ?>
-
+<script src="js/script.js"></script>
 <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

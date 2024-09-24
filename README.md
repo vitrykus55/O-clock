@@ -1,20 +1,32 @@
+---
 
-### Project Description: Time Zone Determination
+# O'clock - Time Zone Display Application
 
-**Functionality:**
-1. **Country Selection:** The user will be able to select a country from a dropdown list on a web page. The list will include various countries, each associated with its corresponding time zone.
+This is a simple web application that allows users to select a city from a list of buttons to display the current time in that city. The application utilizes PHP for server-side processing and Bootstrap for styling.
 
-2. **Displaying Time Zone:** After selecting a country and submitting the form, the script will process the request and display the time zone associated with the selected country. If the country is not found in the database, a message will be shown indicating this.
+## Features
 
-3. **Displaying Current Time:** In addition to the time zone, the script will also show the current time for the selected country. This will be achieved by setting the time zone according to the selected time zone using the `date()` function.
+- Displays a welcome message and a list of cities as buttons.
+- Upon clicking a city button, the application retrieves and displays the current time in the selected city based on its time zone.
+- Supports multiple cities: Tokyo, New York, London, Berlin, Sydney, Shanghai, Kolkata, Los Angeles, and Johannesburg.
 
-**User Interface:**
-- The page will have a simple form with a dropdown list for selecting a country.
-- After selecting a country and clicking the button, the user will see the time zone and the current time for the selected country.
+## Technologies Used
 
-**Technical Requirements:**
-- Use PHP to handle requests and generate HTML code.
-- Implement an associative array to store information about countries and their time zones.
-- Utilize standard PHP functions for working with dates and times.
+- HTML5 for structure
+- CSS (Bootstrap) for styling
+- PHP for backend processing
 
-This project will help practice skills in working with forms, arrays, and data processing in PHP.
+## Usage
+
+1. Clone the repository to your local machine.
+2. Set up a local server environment (e.g., MAMP).
+3. Open the `index.html` file in a web browser.
+4. Click on any city button to see the current time for that location.
+
+## Customization
+
+You can easily add more cities by updating the `$timeZoneMap` array in the PHP section of the code.
+
+--- 
+
+Feel free to modify any part of this description to better suit your style!
